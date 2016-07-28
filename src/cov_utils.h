@@ -26,11 +26,11 @@ int cec_cov_cholesky(const struct cec_matrix * sym_matrix,
         struct cec_matrix * temp_matrix);
 
 void cec_cov_add_point(const struct cec_matrix * covariance,
-        struct cec_matrix * new_covarioance, const double * mean,
+        struct cec_matrix * new_covariance, const double * mean,
         double const * point, int card, struct cec_matrix * t_matrix);
 
 void cec_cov_remove_point(const struct cec_matrix * covariance,
-        struct cec_matrix * new_covarioance, const double * mean,
+        struct cec_matrix * new_covariance, const double * mean,
         double const * point, int card, struct cec_matrix * t_matrix);
 
 #endif	/* COV_UTILS_H */

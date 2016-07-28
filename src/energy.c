@@ -71,7 +71,6 @@ double h_fixed_r(struct cross_entropy_context * context,
 double h_diagonal(struct cross_entropy_context * context,
         const struct cec_matrix * cov)
 {
-
     int n = cov->n;
 
     double diagonal_product = cec_cov_diagonal_product(cov);
